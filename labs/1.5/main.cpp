@@ -19,7 +19,6 @@ public:
     }
 
 private:
-    // Частина 1
     void part1() {
         // Набір 1
         int A1 = 66;
@@ -42,7 +41,6 @@ private:
         cout << "Результат для набору 2: " << boolalpha << result2 << endl;
     }
 
-    // Частина 2
     void part2() {
         // Значення змінних для варіанту 4
         int A = 593;
