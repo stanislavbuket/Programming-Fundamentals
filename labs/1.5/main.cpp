@@ -1,7 +1,7 @@
 /**
  * Done by:
  * Student Name: Stanislav Buket
- * Vatiant: 4
+ * Variant: 4
  * Student Group: 121
  * Lab 1.5
  */
