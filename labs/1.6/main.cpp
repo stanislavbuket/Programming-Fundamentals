@@ -9,11 +9,11 @@
 #include <iostream>
 
 void main() {
-    // Частина 1: Дослідження символьних типів
-    // Опис змінних символьного типу
+    // Part 1: Study of character types
+    // Declaration of character type variables
     char symb1, symb2, symb3;
 
-    // Опис констант символьного типу
+    // Declaration of character type constants
     const char CONST_SYMB1 = 'S';
     const char CONST_SYMB2 = '6';
     const char CONST_SYMB3 = '?';
@@ -26,7 +26,7 @@ void main() {
     symb2 = 0x4f; // '6'
     symb3 = 0x2c; // '?'
 
-    // Частина 2: Дослідження механізму приведення типів
+    // Part 2: Study of type casting mechanism
 
     int nA;
     float fltB;
@@ -40,17 +40,17 @@ void main() {
     int nE;
     char chF;
 
-    // Ініціювання змінних з використанням неявного приведення типів
+    // Initializing variables using implicit type casting
     dblD = nA;
     nE = fltB;
     chF = wC;
 
-    // Ініціювання змінних з використанням явного приведення типів
+    // Initializing variables using explicit type casting
     dblD = (double)nA;
     nE = (int)fltB;
     chF = (char)wC;
 
-    // Ініціювання змінних з обходом суворої типізації
+    // Initializing variables using strict typecasting bypass mechanism
     double* pdblD;
     void* pV;
 
