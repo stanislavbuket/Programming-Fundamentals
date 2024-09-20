@@ -2,7 +2,7 @@
  * Done by:
  * Student Name: Stanislav Buket
  * Student Group: 121
- * Lab 1.5
+ * Practice 1.5
  */
 
 #include <iostream>
