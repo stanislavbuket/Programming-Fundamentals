@@ -6,8 +6,8 @@
 *.dll
 *.dylib
 *.so
-*.dylib
 main
 .vscode
 *.sln
 .vs
+.idea
