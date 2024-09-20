@@ -41,19 +41,14 @@ private:
         cout << "Result for set 2: " << boolalpha << result2 << endl;
     }
 
-    void part2() {
-        // Variable values for variant 4
-        int A = 593;
-        int B = -145;
-        float C = 9.23;
-        int D = 43;
-        int E = 891;
-        short F = sizeof(short);
+    {
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        int d = 40;
 
-        // Expression using operations specified in the tables
-        int L_result = (((A ^ (B >> 1)) / C) * (-D) * sizeof(E)) < F;
-
-        cout << "Calculation result for Part 2: " << L_result << endl;
+        bool res = !a;
+        cout << "res: " << boolalpha << res << endl;
     }
 };
 

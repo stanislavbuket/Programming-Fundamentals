@@ -1,11 +1,11 @@
-1#include <iostream>
 
 // A simple function that takes a void pointer and prints the value
 void printValue(void* ptr, char type) {
     // Using a switch statement to determine the type and cast accordingly
     switch (type) {
         case 'i': // integer type
-            std::cout << "Integer value: " << *(int*)ptr << std::endl;
+            int* intPtr = (int*)ptr; // Cast the void pointer to an int pointer
+            std::cout << "Integer value: " << *intPtr << std::endl;
             break;
         case 'f': // float type
             std::cout << "Float value: " << *(float*)ptr << std::endl;
