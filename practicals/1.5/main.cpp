@@ -17,7 +17,7 @@ void initRandomizer() {
 }
 
 int main() {
-    // Задано послідовність значень А[n]. Знайти мінімальне значення у послідовності.
+    // A sequence of values A[n] is given. Find the minimum value in the sequence.
     {
         initRandomizer();
 
