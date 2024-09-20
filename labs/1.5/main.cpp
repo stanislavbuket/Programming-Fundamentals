@@ -1,7 +1,7 @@
 /**
 * Done by:
  * Student Name: Stanislav Buket
- * Vatiant: 4
+ * Variant: 4
  * Student Group: 121
  * Lab 1.5
  */
@@ -12,7 +12,7 @@ using namespace std;
 
 class Lab1_5 {
 public:
-    // Конструктор
+    // Constructor
     Lab1_5() {
         part1();
         part2();
@@ -20,29 +20,29 @@ public:
 
 private:
     void part1() {
-        // Набір 1
+        // Set 1
         int A1 = 66;
         double B1 = 12.9;
         int C1 = 62;
         int D1 = 59;
 
-        // Обчислення виразу для набору 1
+        // Expression calculation for set 1
         bool result1 = !(!(A1 != B1) && (C1 < D1));
-        cout << "Результат для набору 1: " << boolalpha << result1 << endl;
+        cout << "Result for set 1: " << boolalpha << result1 << endl;
 
-        // Набір 2
+        // Set 2
         double A2 = 3.56;
         double B2 = 89.45;
         int C2 = 15;
         double D2 = 56.2;
 
-        // Обчислення виразу для набору 2
+        // Expression calculation for set 2
         bool result2 = !(!(A2 != B2) && (C2 < D2));
-        cout << "Результат для набору 2: " << boolalpha << result2 << endl;
+        cout << "Result for set 2: " << boolalpha << result2 << endl;
     }
 
     void part2() {
-        // Значення змінних для варіанту 4
+        // Variable values for variant 4
         int A = 593;
         int B = -145;
         float C = 9.23;
@@ -50,15 +50,15 @@ private:
         int E = 891;
         short F = sizeof(short);
 
-        // Вираз з використанням операцій, заданих у таблицях
+        // Expression using operations specified in the tables
         int L_result = (((A ^ (B >> 1)) / C) * (-D) * sizeof(E)) < F;
 
-        cout << "Результат обчислення для Частини 2: " << L_result << endl;
+        cout << "Calculation result for Part 2: " << L_result << endl;
     }
 };
 
 int main() {
-    // Створення об'єкта класу для виконання обох частин
+    // Creating an object of the class to execute both parts
     Lab1_5 lab;
     return 0;
 }

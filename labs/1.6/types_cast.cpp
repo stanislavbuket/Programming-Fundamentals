@@ -1,3 +1,4 @@
+#include <iostream>
 
 // A simple function that takes a void pointer and prints the value
 void printValue(void* ptr, char type) {

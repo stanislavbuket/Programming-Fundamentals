@@ -1,5 +1,5 @@
 /**
- * Done by:
+* Done by:
  * Student Name: Stanislav Buket
  * Variant: 4
  * Student Group: 121
