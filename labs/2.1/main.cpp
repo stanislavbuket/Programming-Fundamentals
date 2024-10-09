@@ -1,3 +1,10 @@
+/**
+* Done by:
+ * Student Name: Stanislav Buket
+ * Student Group: 121
+ * Lab: 2.1
+ */
+
 #include <iostream>
 
 using namespace std;
